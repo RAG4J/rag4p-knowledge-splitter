@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rag4p-knowledge-splitter"
+version = "0.1.0"
+description = "A project to house my ideas around a knowledge based chunking mechanism"
+authors = ["Jettro Coenradie <jettro.coenradie@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rag4p = "^0.8.8"
+notebook = "^7.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
